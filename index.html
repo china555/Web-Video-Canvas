@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        background: black;
+        color: #cccccc;
+      }
+
+      #c2 {
+        background-image: url(media/H-BG.jpg);
+        background-repeat: no-repeat;
+        width: 400px;
+        height: 450px;
+      }
+      #c1 {
+        width: 400px;
+        height: 450px;
+      }
+      div {
+        float: left;
+        border: 1px solid #444444;
+        padding: 10px;
+        margin: 10px;
+        background: #3b3b3b;
+      }
+    </style>
+    <script type="text/javascript" src="processor.js"></script>
+  </head>
+
+  <body>
+    <div>
+      <video
+        id="video"
+        playsinline="playsinline"
+        autoplay="autoplay"
+        loop="loop"
+        muted="muted"
+        style="display: none; width: 608px; height: 289.5px"
+        crossorigin="Anonymous"
+        type="video/mp4"
+        src="media/sexy-02.mp4"
+      ></video>
+      <div>
+        <canvas id="c1" width="400" height="280.5"></canvas>
+        <canvas id="c2" width="400" height="280.5"></canvas>
+      </div>
+    </div>
+  </body>
+</html>
+
+<!-- <div>
+    <video id="video" playsinline="playsinline" autoplay="autoplay" loop="loop" muted="muted"
+        style="display: none; width: 608px; height: 289.5px" crossorigin="Anonymous">
+        <source type="video/mp4" src="media\sexy-02.mp4" />
+    </video
+    <div>
+        <canvas id="c1" width="608" height="289.5"></canvas>
+        <canvas id="c2" width="608" height="289.5"></canvas>
+    </div>
+</div> -->
